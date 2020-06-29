@@ -1,0 +1,299 @@
+* {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   box-sizing: border-box;
+   font-family: 'Overpass', sans-serif;
+   font-size: 1rem;
+   
+
+}
+
+body,html{
+   background: rgb(238, 238, 238);
+}
+
+a{
+   color: black;
+   text-decoration: none;
+   background: rgba(0, 0, 0, 0.2);
+   transition: 0.5s;
+   display: inline-block;
+   }
+   
+a:hover{
+   color: white;
+   background: rgb(105, 105, 105);
+   transform: scale(1.2);
+   }
+
+   #zen-explanation{
+      text-align:justify;
+   }
+
+  
+
+#css-zen-garden{
+   width: 90%;
+   margin: 0  auto 2rem auto;
+   
+}
+
+
+#banner{
+background: url("https://picsum.photos/1902/500/?random=1") no-repeat center center/cover;
+color: white;
+margin: auto;
+text-align: center;
+height: 200px;
+padding: 3.5rem;
+
+}
+
+
+#banner h1,h2{
+font-size: 2rem;
+}
+#banner abbr{
+   font-size: 2rem;
+}
+/* #design-selection{
+   float: left;
+}
+#design-archives{
+   float: right;
+}
+#zen-resources{
+   margin: auto;
+} */
+
+
+
+
+#design-selection{
+display: inline-block;
+padding: 0 1rem;
+
+}
+#design-archives{
+   display: inline-block;
+ 
+}
+#zen-resources{
+   display: inline-block;
+
+}
+
+#zen-preamble{
+   display: flex;
+   padding: 1rem;
+}
+
+#zen-preamble p{
+   /* display: inline-block; */
+padding: 1rem;
+transition: 0.2s;
+border: 2px black solid;
+
+}
+
+
+
+#zen-preamble h3{
+   transition: 0.2s;
+   padding-right: 1rem;
+   font-size: 1.5rem;
+   /* border: 2px black solid; */
+}
+#zen-preamble h3:hover{
+   transform: scale(1.2);
+   }
+
+#zen-preamble p:hover{
+transform: scale(1.2);
+}
+
+
+#zen-preamble h3{
+   margin: auto;
+}
+
+#zen-summary{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
+#zen-summary a{
+color: black;
+text-decoration: none;
+background: rgba(0, 0, 0, 0.2);
+transition: 0.5s;
+display: inline-block;
+}
+
+#zen-summary a:hover{
+color: white;
+background: rgb(105, 105, 105);
+transform: scale(1.2);
+}
+
+#zen-explanation{
+display: flex;
+text-align: center;
+display: inline;
+margin: 1rem ;
+}
+
+#zen-explanation h3{
+margin: 1rem;
+height: 150px;
+line-height: 150px;
+background: url("https://picsum.photos/1902/500/?random=5") no-repeat fixed center center/cover;
+font-size: 2.8rem;
+color: white;
+}
+
+
+
+/* sidebar */
+#sidebar{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-wrap: nowrap;
+   background: url("https://picsum.photos/1902/500/?random=15") no-repeat center center/cover;
+padding: 1rem 0 1rem 0;
+margin:auto
+}
+
+#wrapper{
+   display: flex;
+   justify-content: center;
+   color: black;
+   width: 100%;
+   height: 100%;
+   margin: auto;
+   line-height: 1.5;
+}
+
+
+#wrapper h3{
+   font-size: 1.5rem;
+   color: white;
+}
+
+#wrapper a{
+   color: rgb(204, 247, 255);
+   text-decoration: none;
+   /* background: rgba(248, 221, 221, 0.5); */
+   transition: 0.5s;
+
+}
+
+#wrapper a:hover{
+   background:rgba(0, 0, 0, 0.5);
+   color: white;
+   
+}
+
+#design-archives{
+   margin-right: 2rem;
+   line-height: 1.5;
+}
+
+
+#zen-participation{
+   margin: 1rem 0;text-align:justify;
+   background: url(1.svg);
+}
+#zen-participation h3{
+   margin: 1rem 0;
+   font-size: 2rem;
+   text-align: center;
+   transition: 1s;
+}
+#zen-participation h3:hover{
+   transform: scale(1.5);
+   transform: rotate(360deg);
+}
+
+
+#zen-benefits{
+   margin: 3rem 0;
+   text-align:justify;
+   background: url(2.svg);
+}
+
+#zen-benefits h3{
+   margin: 1rem 0;
+   font-size: 2rem;
+   text-align: center;
+   transition: 1s;
+}
+
+#zen-benefits h3:hover{
+   transform: scale(1.5);
+   transform: rotate(360deg);
+}
+
+
+
+#zen-requirements{
+   margin: 1rem 0 3rem 0;
+   text-align:justify;
+   background: url(1.svg);
+}
+
+#zen-requirements h3{
+   margin: 1rem 0;
+   font-size: 2rem;
+   text-align: center;
+   transition: 1s;
+}
+
+#zen-requirements h3:hover{
+   transform: scale(1.5);
+   transform: rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+   height: 150px;
+   width: 100%;
+   line-height: 150px;
+   text-align: center;
+   background: url("https://picsum.photos/1902/500/?random=8") no-repeat center center/cover;
+margin-bottom: 1rem;
+}
+#footer a{
+   display: inline-block;
+background: none;
+padding: 0 2rem;
+color: rgb(204, 247, 255);
+font-size: 2rem;
+/* background: rgba(0, 0, 0, 0.5); */
+}
+
+#footer a:hover{
+   color: rgb(255, 255, 255);
+   transform: scale(2);
+}
